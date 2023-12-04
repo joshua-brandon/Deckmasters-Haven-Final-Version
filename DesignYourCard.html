@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Deckmaster's Haven</title>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="description" content="A Magic The Gathering card proxy service, where you can buy custom versions of existing cards">
+<meta name="keywords" content="MTG, Magic The Gathering, Magic, Proxy, TCG, Custom, Store">
+<meta name="author" content="Joshua Brandon">
+<link href="BuildACard.css" rel="stylesheet">
+</head>
+<body>
+ <header>
+	<img src="BackgroundGlobe.png" width="150" height="150">&nbsp;
+	<img src="BackgroundGlobe.png" width="150" height="150">&nbsp;
+	<img src="BackgroundGlobe.png" width="150" height="150">&nbsp;
+	<img src="BackgroundGlobe.png" width="150" height="150">&nbsp;
+	<a href="Home.html"><img src="DeckmastersHaven.png" width="207.5" height="150"></a>&nbsp;
+	<img src="BackgroundGlobe.png" width="150" height="150">&nbsp;
+	<img src="BackgroundGlobe.png" width="150" height="150">&nbsp;
+	<img src="BackgroundGlobe.png" width="150" height="150">&nbsp;
+	<img src="BackgroundGlobe.png" width="150" height="150">&nbsp;
+ </header>
+<nav>
+   <ul>
+      <li><a href="Home.html">Home</a></li>
+      <li><a href="Products.html">Products</a></li>
+      <li><a href="MoreInformation.html">More Information</a></li>
+   </ul>
+</nav>
+<div id="wrapper">
+<main>
+<h4>Design And Order Your Cards</h4>
+<div>
+
+<h2>Submit all the information here!</h2>
+	<form method="post" action="https://webdevbasics.net/scripts/demo.php">
+	<label for="myImage">Image: </label><input type="file" id="myImage" name="myImage" accept="image/png, image/jpeg" required>
+	<label for="cardName">Card Name: </label><input type="text" id="cardName" name="cardName" required>
+	<label for="moreInformation">Enter Instructions Here: </label><textarea id="moreInformation" name="moreInformation" rows="8" cols"20" required></textarea>
+	<label for="cardQuantity">How Many Copies: </label><input type="number" id="cardQuantity" name="cardQuantity" min="1" max="100" required>
+	<label for="myName">What Is Your Name: </label><input type="text" id="myName" name="myName" required>
+	<label for="myEmail">What Is Your Email: </label><input type="email" id="myEmail" name="myEmail" required>
+	<label for="myAddress">What Is Your Address: </label><input type="text" id="myAddress" name="myAddress" required>
+	<input type="submit" id="mySubmit" value="Submit">
+</form>
+
+</div>
+Need help finding a card to proxy? Check out <a href="https://www.scryfall.com/">scryfall.com</a> to find the card your looking for.
+<h2>Price For Different Quantity Of Cards:</h2>
+<table>
+	<tr>
+		<th>Amount Ordered</th>
+		<th>Price Charged</th>
+	</tr>
+	<tr>
+		<td>0 cards</td>
+		<td>$2.00 each card</td>
+	</tr>
+	<tr>
+		<td>25 cards</td>
+		<td>$1.75 each card</td>
+	</tr>
+	<tr>
+		<td>50 cards</td>
+		<td>$1.50 each card</td>
+	</tr>
+	<tr>
+		<td>75 cards</td>
+		<td>$1.25 each card</td>
+	</tr>
+	<tr>
+		<td>100 cards</td>
+		<td>$1.00 each card</td>
+	</tr>
+</table>
+</div>
+</main>
+</div>
+<footer>
+Copyright &copy; 2023 Deckmaster's Haven<br>
+<a href="mailto:fakeemailfordeckmastershaven@deckmastershaven.com">fakeemailfordeckmastershaven@deckmastershaven.com</a>
+</footer>
+</body>
+</html>
